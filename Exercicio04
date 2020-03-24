@@ -1,0 +1,15 @@
+k=input("Digite uma palavra de 10 caracteres: ")
+while len(k) != 10:
+    k=input("Digite uma palavra de 10 caracteres: ")
+vogal = 0
+consoante = 0
+cons=[]
+for i in k:
+    if i in ('a','e','i','o','u'):
+        vogal = vogal +1
+    else:
+        cons.append(i)
+        consoante = consoante +1
+
+print("O numero de consoantes é: " + str(consoante))
+print(cons)
