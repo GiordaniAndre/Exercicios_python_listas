@@ -1,0 +1,7 @@
+k=[]
+
+for i in range(4):
+    k.append(int(input("Digite a nota: ")))
+
+print("As suas notas foram: " +str(k))
+print("Sua média foi: "+str(sum(k)/4))
