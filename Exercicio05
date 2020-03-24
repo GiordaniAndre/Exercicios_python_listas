@@ -1,0 +1,16 @@
+numeros =[]
+pares = []
+impares = []
+
+
+for i in range(20):
+    k=int(input("Digite um número: "))
+    numeros.append(k)
+    if k%2 == 0:
+        pares.append(k)
+    else:
+        impares.append(k)
+
+print(numeros)
+print(pares)
+print(impares)
